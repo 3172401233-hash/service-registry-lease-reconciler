@@ -1,0 +1,13 @@
+{
+  "name": "service-registry-lease-reconciler",
+  "version": "0.1.0",
+  "description": "协调服务注册租约、僵尸实例和多区域状态收敛（只消费注册事件，不替换真实注册中心）",
+  "type": "module",
+  "main": "src/reconciler.js",
+  "engines": {
+    "node": ">=24.16.0"
+  },
+  "scripts": {
+    "test": "node --test"
+  }
+}
